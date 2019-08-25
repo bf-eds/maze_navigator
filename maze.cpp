@@ -73,7 +73,7 @@ namespace maze
 
         if (ifile.is_open())
         {
-            // Координаты секций запианы в виде (-1, 0), (113, 54) и т.д.
+            // Координаты секций записаны в виде (-1, 0), (113, 54) и т.д.
             for (string line; getline(ifile, line, ')');)
             {
                 line.erase(0, line.find('(') + 1);
